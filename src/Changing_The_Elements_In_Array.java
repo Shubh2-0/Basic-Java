@@ -1,4 +1,4 @@
-public class chnaging {
+public class Changing_The_Elements_In_Array {
     static void change(int i){
         i=50;
     }
