@@ -1,35 +1,35 @@
 package OOps;
 
-class grandparent{
-    grandparent(){
+class GrandParent{
+    GrandParent(){
         System.out.println("I am constructor of grandparent class");
     }
-    grandparent(int n){
+    GrandParent(int n){
         System.out.println("I am PeraMetarais constructor of grandparent class");
     }
 
-    public void printg(){
+    public void printG(){
         System.out.println("I am Method of GrandFather Class");
     }
 
 }
 
-abstract class parent extends grandparent{
-    parent(){
+abstract class Parent extends GrandParent{
+    Parent(){
         System.out.println("I am constructor of parent class");
     }
-    parent(int k){
+    Parent(int k){
         super(k);
         System.out.println("I am PeraMetarais constructor of parent class");
     }
 
 }
 
-class child extends parent{
-    child(){
+class Child extends Parent{
+    Child(){
         System.out.println("I am constructor of child class");
     }
-    child(int h){
+    Child(int h){
         super(h);
         System.out.println("I am PeraMeterais constructor of child class");
     }
@@ -42,8 +42,8 @@ class child extends parent{
 public class Constructor_In_Inheritence {
     public static void main(String[] args) {
 
-        child c1 = new child(5);
-        c1.printg();
+        Child c1 = new Child(5);
+        c1.printG();
 
     }
 }

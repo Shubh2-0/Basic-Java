@@ -9,41 +9,41 @@ import java.util.Scanner;
 //        takeUserInput() to take a user input of number
 //        isCorrectNumber() to detect whether the number entered by the user is true
 //        getter and setter for noOfGuesses
-//        Use properties such as noOfGuesses(int), etc to get this task done!
+//        Use properties such as noOfGuesses(int),etc to get this task done!
 
 class Game{
 
-    int Number;
-    int UserGuess;
-    int NumberOfTry=0;
+    int number;
+    int userGuess;
+    int numberOfTry=0;
 
     Game(){
         Random rn = new Random();
         int number = rn.nextInt(50);
-        this.Number=number;
+        this.number=number;
     }
 
     public void setNumberOfTry(int numberOfTry){
-        this.NumberOfTry=numberOfTry;
+        this.numberOfTry=numberOfTry;
     }
 
     public int getNumberOfTry(){
-        return NumberOfTry;
+        return numberOfTry;
     }
     public int takeUserInput(){
         System.out.println("Guess The Number");
        Scanner sc = new Scanner(System.in);
-        this.UserGuess=sc.nextInt();
-        return UserGuess;
+        this.userGuess=sc.nextInt();
+        return userGuess;
     }
 
 
     public boolean isCorrectNumber(int UserGuess){
-          NumberOfTry++;
-        if(this.UserGuess==this.Number){
-            System.out.format("!!HOORAY!! you guess the correct number it was %d and you guess in %d attempts",Number,getNumberOfTry());
+          numberOfTry++;
+        if(this.userGuess==this.number){
+            System.out.format("!!HOORAY!! you guess the correct number it was %d and you guess in %d attempts",number,getNumberOfTry());
             return true;
-        }else if(this.UserGuess>this.Number){
+        }else if(this.userGuess>this.number){
             System.out.println("Too High");
             System.out.println();
             return false;

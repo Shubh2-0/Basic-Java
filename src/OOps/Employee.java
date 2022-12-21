@@ -3,15 +3,15 @@ package OOps;
 public class Employee {
 
     String name;
-    int Age;
-    int Salary;
+    int age;
+    int salary;
     String id;
     int experience;
 
    Employee(String name,int Age, int Salary, String id,int experience){
    this.name=name;
-   this.Age=Age;
-   this.Salary=Salary;
+   this.age=Age;
+   this.salary=Salary;
    this.id=id;
    this.experience=experience;
    }
@@ -27,10 +27,10 @@ public class Employee {
    }
 
    void bonus(){
-       if(Age>20){
+       if(age>20){
            System.out.println(this.name + " Congratulations!, You are eligible for Bonus ");
        }
-       else if(Age > 30){
+       else if(age > 30){
            System.out.println(this.name + " WOW! Mega Reward");
        }
        else{
@@ -40,11 +40,11 @@ public class Employee {
 
 
    void  tax(){
-   if(Salary >= 50000){
+   if(salary >= 50000){
        System.out.println("30% of salary");
-   }else if(Salary < 50000 && Salary >= 30000){
+   }else if(salary < 50000 && salary >= 30000){
        System.out.println("20% of salary");
-   }else if(Salary < 30000 && Salary >= 25000){
+   }else if(salary < 30000 && salary >= 25000){
        System.out.println("10% of salary");
    }else{
        System.out.println("Not Eligible of Paying Tax");

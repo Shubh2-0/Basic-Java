@@ -2,8 +2,8 @@ package OOps;
 
 
 abstract class India{
-    public abstract void Morning();
-    public abstract void Night();
+    public abstract void morning();
+    public abstract void night();
 
     public void sunday(){
         System.out.println("Holiday");
@@ -12,44 +12,44 @@ abstract class India{
 
 }
 class bengal extends India{
-    public void Morning(){
+    public void morning(){
         System.out.println("সুপ্রভাত ");
         System.out.println();
     }
-    public void Night(){
+    public void night(){
         System.out.println("শুভ রাত্রি");
         System.out.println();
     }
 }
 
 class Bihar extends India{
-    public void Morning(){
+    public void morning(){
         System.out.println("राम राम");
         System.out.println();
     }
-    public void Night(){
+    public void night(){
         System.out.println("शुभ रात्री");
         System.out.println();
     }
 }
 
 class Punjab extends India{
-    public void Morning(){
+    public void morning(){
         System.out.println("ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ");
         System.out.println();
     }
-    public void Night(){
+    public void night(){
         System.out.println("ਸ਼ੁਭ ਰਾਤ");
         System.out.println();
     }
 }
 
 class MadhyaPradesh extends India{
-    public void Morning(){
+    public void morning(){
         System.out.println("शुभ प्रभात");
         System.out.println();
     }
-    public void Night(){
+    public void night(){
         System.out.println("शुभ रात्रि");
         System.out.println();
     }
@@ -62,18 +62,18 @@ public class AbstractClass {
     public static void main(String[] args) {
 
         MadhyaPradesh ujjain = new MadhyaPradesh();
-        ujjain.Morning();
+        ujjain.morning();
 
         Bihar patna = new Bihar();
-        patna.Night();
+        patna.night();
         patna.sunday();
 
         Punjab amritsar = new Punjab();
-        amritsar.Night();
+        amritsar.night();
 
         bengal kolkata = new bengal();
-        kolkata.Morning();
-        kolkata.Night();
+        kolkata.morning();
+        kolkata.night();
 
 
 //        ALLOWED (DYNAMIC METHOD DISSPATCH) :-

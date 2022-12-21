@@ -1,11 +1,11 @@
 package OOps;
 
 class Mobile{
-    public void On(){
+    public void on(){
         System.out.println("Mobile Method ON");
     }
 
-    public void Off(){
+    public void off(){
         System.out.println("Mobile Method OFF");
     }
 
@@ -13,28 +13,28 @@ class Mobile{
 
 class SmartPhone extends Mobile{
     @Override
-    public void On() {
+    public void on() {
         System.out.println("SmartPhone Method ON");
     }
 
-    public void Mute(){
+    public void mute(){
         System.out.println("SmartPhone is Mute Now");
     }
 
     @Override
-    public void Off() {
+    public void off() {
         System.out.println("SmartPhone Method OFF");
     }
 }
 
 class KeyPadPhone extends Mobile{
     @Override
-    public void On() {
+    public void on() {
         System.out.println("KeyPad Method ON");
     }
 
     @Override
-    public void Off() {
+    public void off() {
         System.out.println("KeyPad Method OFF");
     }
 }
@@ -46,16 +46,16 @@ public class DynamicMethodDispatch {
     public static void main(String[] args) {
 
     Mobile m1 = new Mobile();
-    m1.Off();
+    m1.off();
     KeyPadPhone k1 = new KeyPadPhone();
-    k1.Off();
+    k1.off();
     SmartPhone s1 = new SmartPhone();
-    s1.Off();
-    s1.Mute();
+    s1.off();
+    s1.mute();
 
     Mobile s2 = new SmartPhone();
-    s2.Off();
-    s2.On();
+    s2.off();
+    s2.on();
 //    s2.Mute(); Not Allowed
 //    SmartPhone s2 = new Mobile(); Not Allowed
 //      KeyPadPhone k2 = mew Mobile(); Not Allowed
