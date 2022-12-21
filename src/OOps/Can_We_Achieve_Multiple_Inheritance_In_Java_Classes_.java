@@ -7,6 +7,7 @@ class father{
     public void show1(){
         System.out.format("Your Age is d% and your Salary is %d",Salary,Age);
         System.out.println();
+//
     }
 
 }
