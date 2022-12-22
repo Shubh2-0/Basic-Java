@@ -72,18 +72,18 @@ public class Main {
 //        boolean an1 = r2.GetArea() > r3.GetArea() && r2.GetArea() > r4.GetArea();
 //        System.out.println(an1);
 
-        Circle c1 = new Circle("Circle 1",5);
-        Circle c2 = new Circle("Circle 2",2);
-        Circle c3 = new Circle("Circle 3",3);
-        Circle c4 = new Circle("Circle 4",1);
+        Circle c1 = new Circle(5, "Circle 1");
+        Circle c2 = new Circle(2, "Circle 2");
+//        Circle c3 = new Circle("Circle 3",3);
+//        Circle c4 = new Circle("Circle 4",1);
 
-        boolean cans = c1.GetArea() > c2.GetArea()  && c3.GetPerimeter() < c4.GetPerimeter();
-        System.out.println(cans);
-
-        c1.PrintArea();
-        c1.PrintPeriMeter();
-
-
+//        boolean cans = c1.GetArea() > c2.GetArea()  && c3.GetPerimeter() < c4.GetPerimeter();
+//        System.out.println(cans);
+//
+//        c1.PrintArea();
+//        c1.PrintPeriMeter();
+//
+//
 
 
 

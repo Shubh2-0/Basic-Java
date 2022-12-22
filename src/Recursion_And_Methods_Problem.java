@@ -1,4 +1,4 @@
-public class recursion_and_methods_problem {
+public class Recursion_And_Methods_Problem {
     static void  table(int num){
        int i=1;
         while(i<11){

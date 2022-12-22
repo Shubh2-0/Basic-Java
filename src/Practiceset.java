@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class practiceset {
+public class Practiceset {
 
     public static void main(String[] args) {
 

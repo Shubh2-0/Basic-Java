@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class staticMethod {
+public class StaticMethod {
 //    basically static method are those kind of methods which we call without creating a object
     static void fun(int i){
     for(int j=1;j<11;j++){

@@ -1,5 +1,5 @@
-public class Variable_Arguments {
-//    Variable_Arguments : one method for different perametes in main method
+public class VariableArguments {
+//    Variable_Arguments : one method for different parameter in main method
 static void sum(int... arr){
     int total = 0;
     for(int el : arr){
@@ -14,7 +14,7 @@ static  void sum(String... arr){
     System.out.println();
 }
 
-//this method is showing that show atleast one perameter is compulsory for use or call this method wer can use multiple perameters here
+//this method is showing that show at least one  parameter is compulsory for use or call this method wer can use multiple perameters here
 static void sum2(int x,int... arr){
     int result = x;
     for(int el : arr){
