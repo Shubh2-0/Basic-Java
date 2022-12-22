@@ -71,9 +71,9 @@ public class Main {
 //
 //        boolean an1 = r2.GetArea() > r3.GetArea() && r2.GetArea() > r4.GetArea();
 //        System.out.println(an1);
-
-        Circle c1 = new Circle(5, "Circle 1");
-        Circle c2 = new Circle(2, "Circle 2");
+//
+//        Circle c1 = new Circle(5, "Circle 1");
+//        Circle c2 = new Circle(2, "Circle 2");
 //        Circle c3 = new Circle("Circle 3",3);
 //        Circle c4 = new Circle("Circle 4",1);
 

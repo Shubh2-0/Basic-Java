@@ -64,6 +64,11 @@ public class AbstractClass {
         MadhyaPradesh ujjain = new MadhyaPradesh();
         ujjain.morning();
 
+        MadhyaPradesh indore = new MadhyaPradesh();
+
+     /*   System.out.println(ujjain);
+        System.out.println(indore);*/
+
         Bihar patna = new Bihar();
         patna.night();
         patna.sunday();
@@ -75,9 +80,13 @@ public class AbstractClass {
         kolkata.morning();
         kolkata.night();
 
+//        System.out.println(kolkata);
+//        System.out.println(patna);
+//        System.out.println(indore);
+//     ADDRESS OF KOLKATA OBJECT IN RAM :- OOps.bengal@2d98a335
 
 //        ALLOWED (DYNAMIC METHOD DISSPATCH) :-
-        India Ujjain = new MadhyaPradesh();
+
 
 
 //        HimachalPradesh city = new HimachalPradesh()   NOT ALLOWED
