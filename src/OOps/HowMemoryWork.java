@@ -16,6 +16,8 @@ public class HowMemoryWork {
 
     public static void main(String[] args) {
         Memory m1 = new Memory("Memory1",20);
+        int power = (int) Math.pow(2,2);
+        System.out.println(power);
 
         System.out.println(m1);
 
