@@ -25,6 +25,8 @@ public class String_Problem {
         System.out.println(space.indexOf("  "));
         System.out.println(space.indexOf("   "));
 
+
+
 //       5.  Write a program to format the following letter using escape sequence characters.
 //                Letter = “Dear Harry, This Java Course is nice. Thanks”
         String Unknow_Method = "Dear Shubham,\n\tThis Java Course is very Helpful for you.\nThanks!";
