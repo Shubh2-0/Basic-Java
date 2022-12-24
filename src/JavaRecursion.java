@@ -1,4 +1,4 @@
-public class Java_Recursion {
+public class JavaRecursion {
 //    Recursion => Method (Function) call itself again and again
 
         static int factorial(int n){

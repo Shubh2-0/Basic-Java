@@ -1,5 +1,5 @@
 import  java.util.Scanner;
-public class km_to_m {
+public class Km_To_M {
     public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);

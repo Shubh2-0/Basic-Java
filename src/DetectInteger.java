@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class detect_Integer {
+public class DetectInteger {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

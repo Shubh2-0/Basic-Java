@@ -1,4 +1,4 @@
-public class arrays_problems {
+public class ArraysProblems {
     public static void main(String[] args) {
 
 //     1. Create an array of 5 floats and calculate their sum.
