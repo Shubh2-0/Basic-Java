@@ -23,6 +23,7 @@ public class String_Problem {
 //
 //
 //
+//
 //      4.  Write a Java program to detect double and triple spaces in a string.
          String space = "HEllo  My name is   Shubham";
         System.out.println(space.indexOf("  "));
