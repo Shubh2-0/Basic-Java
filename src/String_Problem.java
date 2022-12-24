@@ -19,11 +19,7 @@ public class String_Problem {
         String letter = "Dear <|name|>, Thanks a lot";
         letter=letter.replace("<|name|>","Shubham");
         System.out.println(letter);
-//
-//
-//
-//
-//
+
 //      4.  Write a Java program to detect double and triple spaces in a string.
          String space = "HEllo  My name is   Shubham";
         System.out.println(space.indexOf("  "));
