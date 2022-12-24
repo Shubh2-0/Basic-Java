@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class arrays {
+public class Arrays {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any 5 numbers");
