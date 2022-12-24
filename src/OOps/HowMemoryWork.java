@@ -20,8 +20,9 @@ public class HowMemoryWork {
         System.out.println(power);
 
         System.out.println(m1);
-
+//          second time run = OOps.Memory@6d03e736
 //        first time run = OOps.Memory@6d03e736
+//        third time run = OOps.Memory@6d03e736
 
     }
 
