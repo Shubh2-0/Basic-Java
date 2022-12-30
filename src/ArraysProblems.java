@@ -1,7 +1,7 @@
 public class ArraysProblems {
     public static void main(String[] args) {
 
-//     1. Create an array of 5 floats and calculate their sum.
+//     1. Create an array of 5 floats and calculate their sum..
         float sum=0;
         float[] arr={1.5f , 1.5f , 1.5f , 1.5f , 1.5f};
         for(float el : arr){
