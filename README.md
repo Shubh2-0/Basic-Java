@@ -29,3 +29,5 @@ Primitive data are only single values and have no special capabilities. There ar
 # Non-Primitive Data Type or Reference Data Types
                                                                
 The Reference Data Types will contain a memory address of variable values because the reference types won’t store the variable value directly in memory. They are strings, objects, arrays, etc.                                                                
+
+<img src="https://3.bp.blogspot.com/-2-MXCw6VXW0/XN-K3j5DYkI/AAAAAAAACqs/zshS2396agk3uH0Vu0MU5FmWMklSbOPxwCLcBGAs/s1600/non-primitive-data-types.png" />
