@@ -4,8 +4,8 @@ This repository contains basic Java programs and examples covering various conce
 
 Java has two categories in which data types are segregated
 
-** Primitive Data Type: ** such as boolean, char, int, short, byte, long, float, and double
-** Non-Primitive Data Type or Object Data type: ** such as String, Array, etc.
+**Primitive Data Type:** such as boolean, char, int, short, byte, long, float, and double
+**Non-Primitive Data Type or Object Data type:** such as String, Array, etc.
 
 
 # Types Of Primitive Data Types
