@@ -78,7 +78,7 @@ To ensure a smooth contribution process, please follow these guidelines:
 - Update the README file if necessary to reflect any new additions or changes.
 
 Thank you for your interest in contributing to this repository! Let's code and create something amazing together! 😄💻
-<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191105111644/Data-types-in-Java.jpg" />
+
 
 
 
