@@ -64,19 +64,6 @@ To contribute to this repository, follow these steps:
 4. Commit your changes and push them to your forked repository. 🔃
 5. Submit a pull request with a detailed description of your changes. 📤
 
-Let's collaborate and make this repository even better together! 🤝💪🏻 Your contributions will help create a valuable resource for Java developers worldwide. ❤️👦🏻
-
-## Contributing Guidelines 📝
-
-To ensure a smooth contribution process, please follow these guidelines:
-
-- Before starting any work, create an issue to discuss and get feedback on your proposed changes.
-- Follow the existing code style and naming conventions to maintain consistency.
-- Write clear and concise commit messages that describe the purpose of your changes.
-- Include appropriate comments in your code to enhance readability.
-- Test your changes thoroughly to avoid introducing bugs.
-- Update the README file if necessary to reflect any new additions or changes.
-
 Thank you for your interest in contributing to this repository! Let's code and create something amazing together! 😄💻
 
 
