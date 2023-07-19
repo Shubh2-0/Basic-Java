@@ -7,7 +7,7 @@ Java has two categories in which data types are segregated
 **Primitive Data Type:** such as boolean, char, int, short, byte, long, float, and double\
 **Non-Primitive Data Type or Object Data type:** such as String, Array, etc.
 
-
+ 
 # Types Of Primitive Data Types
 Primitive data are only single values and have no special capabilities. There are 8 primitive data types. They are depicted below in tabular format below as follows: 
 
