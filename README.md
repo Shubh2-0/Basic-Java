@@ -3,7 +3,7 @@
 This repository contains basic Java programs and examples covering various concepts of object-oriented programming and fundamental Java topics. It serves as a beginner's guide to Java programming. 📖🎨
 
 Java has two categories in which data types are segregated
-
+ 
 **Primitive Data Type:** such as boolean, char, int, short, byte, long, float, and double\
 **Non-Primitive Data Type or Object Data type:** such as String, Array, etc.
 
